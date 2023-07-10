@@ -11,7 +11,7 @@ function compare(a, b) {
 
 function calculateMinCost() {
   //your code here
-let str=document.getElementById('rope-lengths').value.split(",");
+  let str=document.getElementById('rope-lengths').value.split(",");
   let arr=str.map((str)=>parseInt(str));
   // console.log(arr);
   
